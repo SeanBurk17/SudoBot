@@ -44,7 +44,7 @@ public class Board {
     // and asks user if it should execute brute force solving algorithm
     public static void getBoardFromFile() {
         // File containing empty puzzles
-        File allBoards= new File("~/lab/SudoBot/39puz2650.txt");
+        File allBoards= new File("./39puz2650.txt");
         Scanner userIn= new Scanner(System.in);
 
         // User Input
